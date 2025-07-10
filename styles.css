@@ -25,6 +25,7 @@ body {
     text-align: center;
     background-color: var(--background-color);
     padding: 0.1rem;
+    overflow-x:hidden ;
 }
 
 /* .header{
@@ -601,7 +602,7 @@ body {
 .footer-container {
     background-color: var(--background-color);
     margin: 0 auto;
-    padding: 0 2rem;
+    /* padding: 0 2rem; */
     display: flex;
     flex-direction: column;
     max-width: 1280px;
@@ -609,7 +610,7 @@ body {
 
 .footer {
     max-width: 1280px;
-    padding: 1.2rem 2.4rem;
+    /* padding: 1.2rem 2.4rem; */
     text-align: left;
     display: flex;
     justify-content: space-between;
